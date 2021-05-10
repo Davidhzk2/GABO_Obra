@@ -1,0 +1,234 @@
+*{
+    top:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(248, 250, 249);
+    font-family: "Akaya Telivigala", cursiva;
+}
+.header{
+    height: 70px;
+    background-color: white;
+}
+.logo{
+    float: left;
+    padding: 10px;
+}
+.logo img{
+    width: 80px;
+    height: 50px;
+}
+.menu{
+    float: right;
+    margin: 24px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.banner{
+    height: 550px;
+    background-image: url(../img/gabo.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.banner h1{
+    text-align: right;
+    font-size: 80px;
+    padding: 150px 50px;
+}
+.portada{
+    background-color: #dddddd;
+    height: 480px;
+    text-align: center;
+    
+}
+.portada h1{
+    text-align: center;
+    font-size: 75px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding: 110px 40px  80px 40px;
+    color:  rgb(140, 140, 140);
+    letter-spacing: 0.5px;
+    font-family: 'Noto sans', sans-serif;
+    text-transform: uppercase;
+}
+.btn-more{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    background-color: #33B5BC;
+    height: auto;
+    padding: 10px;
+    line-height: 20px;
+    cursor:pointer;
+}
+.readMore{
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    width: 300px;
+    background-color: #EF327E;
+    height: auto;
+    padding: 10px;
+    line-height: 20px;
+    cursor:pointer;
+    margin: auto;
+}
+.comprar{
+    margin: 20px 0px ;
+    text-align: center;
+    width: 300px;
+    background-color: #EAE041;
+    height: auto;
+    padding: 10px;
+    line-height: 20px;
+    cursor:pointer;
+}
+.btn-more a, .readMore a, .comprar a{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.obras{
+    width: auto;
+    margin: auto;
+}
+.obras .tdObras{
+    padding: 50px;
+}
+.botonObras{
+    width:80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color:#EF327E;
+    text-align: center;
+    padding: 10px;
+    line-height: 60px;
+    cursor:pointer;
+}
+.botonObras a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.botonObras:hover{
+    border: 2px solid #EF327E;
+    color: #EF327E;
+    background-color: transparent;
+    transition: all 300ms ease;
+}
+.biografia{
+    background-color: rgba(255, 255, 255, 0.76);
+    color: rgb(61, 60, 60);
+    padding: 20px 100px 70px 100px;
+}
+.biografia h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.biografia p{
+    font-size: 25px;
+}
+.resumen{
+    background-color: rgba(255, 255, 255, 0.76);
+    color: rgb(61, 60, 60);
+    padding: 20px 100px 70px 100px;
+    text-align: left;
+}
+.resumen h2{
+    font-size: 50px;
+    color: #EF327E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resumen p{
+    text-align: justify;
+    font-size: 24px;
+}
+p span{
+    font-weight: 700;
+}
+.small{
+    margin: 20px 0;
+    width: 700px;
+}
+.premios{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.premios table{
+    padding: 30px 100px;
+}
+.premios h2{
+    font-size: 40px;
+    padding: 10px;
+}
+.premios td{
+    font-size: 22px;
+    float: left;
+    padding: 12px 20px;
+}
+.premios td i{
+    color: #707072;
+}
+.premios .year{
+     font-weight: 400;
+    border-right: 2px solid #535358;
+    padding: 12px 8px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.premios tr {
+    color: black;
+}
+/* .premios tr:nth-child(odd) {
+    background-color: rgb(185, 185, 185);
+} */
+.premios tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+.libro{
+      background-color: rgba(255, 255, 255, 0.76);
+    color: rgb(61, 60, 60);
+    padding: 10px 140px 70px 140px;
+    text-align: left;
+}
+.libro h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #EAE041;
+}
+.libro h3{
+    font-size: 35px;
+    color:  rgb(140, 140, 140);
+    letter-spacing: 0.5px;
+    font-family: 'Noto sans', sans-serif;
+    text-transform: uppercase;
+}
+.info{
+    float: right;
+    top: -500px;
+}
+.info p{
+    font-size: 20px;
+    font-family: 'Noto', sans-serif;
+
+}
+
+footer{
+    background-color: #535358;
+    color: rgb(235, 232, 227);
+    text-align: center;
+    padding: 20px  100px;
+    font-family: sans-serif;
+}
